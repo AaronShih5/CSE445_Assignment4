@@ -5,7 +5,10 @@
   Schema for a directory of national parks (structure from Figure 1).
   Child elements at the same level must appear in left-to-right order (xs:sequence).
 -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="https://aaronshih5.github.io/CSE445_Assignment4"
+           targetNamespace="https://aaronshih5.github.io/CSE445_Assignment4"
+           elementFormDefault="qualified" attributeFormDefault="unqualified">
 
   <!-- Root element: a directory holding one or more national parks -->
   <xs:element name="NationalParks">
